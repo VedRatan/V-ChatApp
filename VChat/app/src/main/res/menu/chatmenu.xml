@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+<item
+    android:icon="@drawable/ic_baseline_settings_24"
+    android:title=""
+    app:showAsAction="always"
+    >
+<menu>
+
+    <item
+
+        android:title="user settings"
+        android:id="@+id/user_settings"
+        app:showAsAction="never">
+
+    </item>
+
+    <item
+
+        android:title="change background"
+        android:id="@+id/changebackground"
+        app:showAsAction="never">
+
+    </item>
+    <item
+
+        android:title="clear chat"
+        android:id="@+id/clear_chat"
+        app:showAsAction="never">
+
+    </item>
+</menu>
+
+</item>
+</menu>
